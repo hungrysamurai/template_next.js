@@ -13,7 +13,7 @@
     "start": "next start",
     "lint": "next lint",
     "prettier": "prettier --write .",
-    "prepare": "husky",
+    "prepare": "husky init && husky install && npx husky set .husky/pre-commit \"yarn lint\"",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
