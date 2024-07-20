@@ -1,7 +1,7 @@
 export default function Page() {
   return (
     <>
-      <p>this is page2</p>
+      <p>This is Page 2 content</p>
     </>
   );
 }

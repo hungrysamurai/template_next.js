@@ -1,7 +1,7 @@
-export default function Page() {
+export default async function Page() {
   return (
     <>
-      <p>this is page1</p>
+      <p>this is Page 1 content</p>
     </>
   );
 }
