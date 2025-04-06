@@ -1,8 +1,10 @@
+import CatCard from './components/cards/cat/CatCard';
 import styles from './page.module.scss';
 
 export default function Home() {
   return (
     <main className={styles.main}>
+      <CatCard tag={'jhg'} title={'hgjh'} body={''} author={''} time={''} />
       <h1>This is heading one</h1>
       <h2>This is heading two</h2>
       <h3>This is heading three</h3>

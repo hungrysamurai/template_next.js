@@ -50,5 +50,8 @@
     "sass": "^1.77.8",
     "storybook": "^8.2.2",
     "typescript": "^5"
+  },
+  "resolutions": {
+    "webpack": "^5"
   }
 }
