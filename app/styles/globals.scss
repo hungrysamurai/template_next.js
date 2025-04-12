@@ -1,6 +1,16 @@
+@use './variables.scss' as vars;
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-@import './variables';
+:root {
+  --primary-color: #262626;
+  --secondary-color: #cfcfcf;
+}
+
+[data-theme='dark'] {
+  --primary-color: #262626;
+  --secondary-color: #cfcfcf;
+}
 
 * {
   margin: 0;
@@ -18,5 +28,5 @@ body {
 
 h1 {
   font-family: 'Roboto', sans-serif;
-  font-size: $font-big;
+  font-size: vars.$font-big;
 }
